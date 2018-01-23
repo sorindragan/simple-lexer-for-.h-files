@@ -1,7 +1,7 @@
 # C++ Header Files Simple Lexer
 
 This is a lexer implemented in Flex and C that:
-  - prints the Constructors, CopyConstructor, Destructor and Methods along with their parameters types
+  - prints the Constructors, CopyConstructor, Destructor and Methods along with its parameters types
   - count the Constructors, Methods and Overloaded Methods
   - shows the existence or inexistence of a CopyConstructor or Destructor
 of a ".h" file. 
