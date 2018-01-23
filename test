@@ -1,0 +1,15 @@
+#!/bin/bash
+make
+
+./header_lexer < "$1" > output.out
+
+lex escape_blanks.l
+gcc lex.yy.c -lfl -o clean_view
+
+echo
+./clean_view < output.out
+echo
+make clean
+echo
+rm -f clean_view
+rm -f output.out
